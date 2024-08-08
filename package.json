@@ -1,0 +1,32 @@
+{
+  "name": "melody",
+  "version": "1.0.0",
+  "description": "discord bot for music",
+  "main": "index.js",
+  "author": "blackchapel",
+  "license": "GPL-3.0-or-later",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch src/index.ts",
+    "start": "node build/index.js"
+  },
+  "dependencies": {
+    "@discordjs/voice": "^0.17.0",
+    "cors": "^2.8.5",
+    "discord-interactions": "^4.0.0",
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "ytdl-core": "^4.11.5"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/morgan": "^1.9.9",
+    "@types/node": "^22.1.0",
+    "tsx": "^4.16.5",
+    "typescript": "^5.5.4"
+  }
+}
