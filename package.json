@@ -5,7 +5,6 @@
   "main": "index.js",
   "author": "blackchapel",
   "license": "GPL-3.0-or-later",
-  "type": "module",
   "scripts": {
     "build": "tsc",
     "dev": "tsx watch src/index.ts",

@@ -4,7 +4,6 @@ import express, { Application, Request, Response } from 'express';
 import morgan from 'morgan';
 import DiscordClient from './utils/init';
 import path from 'path';
-import { createReadStream } from 'fs';
 import serveFavicon from 'serve-favicon';
 
 // Initailizing env variables
@@ -41,5 +40,4 @@ app.use('/api', (req: Request, res: Response) => {
 // Listening on the port
 app.listen(PORT, () => {
     console.log(`Server running on ${process.env.API_URL}`);
-    // database();
 });
