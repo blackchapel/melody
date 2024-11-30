@@ -1,0 +1,29 @@
+{
+  "name": "melody",
+  "version": "0.1.0",
+  "description": "Discord music bot ",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blackchapel/melody.git"
+  },
+  "author": "blackchapel",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/blackchapel/melody/issues"
+  },
+  "homepage": "https://github.com/blackchapel/melody#readme",
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "eslint": "^9.16.0",
+    "nodemon": "^3.1.7"
+  }
+}
